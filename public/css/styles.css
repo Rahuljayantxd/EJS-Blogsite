@@ -10,6 +10,7 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -35,5 +36,14 @@
 }
 
 .inputPost {
-  height: 150px
+  height: 150px;
+  height: auto;
+}
+
+.propic {
+   max-width: 67px;
+   float: left;
+   display: block;
+
+
 }
