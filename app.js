@@ -6,9 +6,8 @@ const ejs = require("ejs");
 const _ = require("lodash");
 
 const homeStartingContent = "Hey there! My name is Rahul and you are now on my site which i created using Node, Express and Express js. Others ofcourse HTML, JS and css. Spoilers! You cant view source code of this website by right click becuase i disables it, hahahah! Last thing this website is in development so go to About page to see what can you do.";
-const aboutContent = "hello";
-const contactContent = "Check out my other projects ";
-
+const aboutContent = "You can post too. You just need to add ' /compose ' after website link. You must be on Home page after than add '/compose'";
+const contactContent = "NOTE:I have not learnt Database yet so if you write something in compose section then it wont be save forever. ";
 const app = express();
 let posts = [];
 
